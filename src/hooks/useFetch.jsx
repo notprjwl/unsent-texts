@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 const useFetch = (url) => {
   const [messages, setMesg] = useState(null);
   const [error, setError] = useState(null);
+  
   //if you are fetching the data in real time then add loading state when it is getting the data
   const [isLoading, setLoading] = useState(true);
 
