@@ -1,24 +1,454 @@
 {
-    "messages": [
-        {
-            "name": "connor",
-            "mesg": "Thank you for showing me how it feels to be truly loved. You’re the best thing to ever happen to me.",
-            "id": 1
-          },
-          {
-            "name": "bently",
-            "mesg": "I still think about you. Hope you are doing better.",
-            "id": 2
-          },
-          {
-            "name": "tano",
-            "mesg": "For another lifetime we would have worked out but for now i wish you the best.",
-            "id": 3
-          },
-          {
-            "name": "nina",
-            "mesg": "I am finally forgiving for what you did. Im happy now i hope you too",
-            "id": 4
-          }
-    ]
+  "messages": [
+    {
+      "name": "Aarav",
+      "mesg": "Thank you for the beautiful moments we shared. You'll always have a special place in my heart.",
+      "id": 1
+    },
+    {
+      "name": "Aditi",
+      "mesg": "Wishing you joy and success on your journey. I appreciate the time we spent together.",
+      "id": 2
+    },
+    {
+      "name": "Rohan",
+      "mesg": "Life has its twists and turns. I hope you find the happiness you deserve.",
+      "id": 3
+    },
+    {
+      "name": "Ishita",
+      "mesg": "Our chapter may have ended, but I wish you nothing but the best in your future endeavors.",
+      "id": 4
+    },
+    {
+      "name": "Vikrant",
+      "mesg": "The memories we created together will always hold a special place in my heart. Take care.",
+      "id": 5
+    },
+    {
+      "name": "Sanjana",
+      "mesg": "May your path be filled with love and happiness. Thank you for being part of my journey.",
+      "id": 6
+    },
+    {
+      "name": "Aryan",
+      "mesg": "Wishing you success and fulfillment in all your endeavors. Our time together was meaningful.",
+      "id": 7
+    },
+    {
+      "name": "Ishan",
+      "mesg": "Life goes on, and so do we. I hope you find what you're looking for. Take care.",
+      "id": 8
+    },
+    {
+      "name": "Neha",
+      "mesg": "Thank you for the lessons and memories. Wishing you a bright and happy future.",
+      "id": 9
+    },
+    {
+      "name": "Kabir",
+      "mesg": "As we part ways, I wish you love, peace, and success. May your journey be fulfilling.",
+      "id": 10
+    },
+    {
+      "name": "Avantika",
+      "mesg": "Our time together was a beautiful chapter. May the next one bring you even more joy.",
+      "id": 11
+    },
+    {
+      "name": "Aaditya",
+      "mesg": "Life is a journey with unexpected turns. I hope you find happiness and fulfillment.",
+      "id": 12
+    },
+    {
+      "name": "Sanya",
+      "mesg": "Wishing you the best in all your endeavors. Thank you for the beautiful moments we shared.",
+      "id": 13
+    },
+    {
+      "name": "Aditya",
+      "mesg": "Our paths may have diverged, but I'm grateful for the time we spent together. Take care.",
+      "id": 14
+    },
+    {
+      "name": "Aisha",
+      "mesg": "As we go our separate ways, I wish you love, peace, and success in everything you do.",
+      "id": 15
+    },
+    {
+      "name": "Yash",
+      "mesg": "Life is a journey of growth. Wishing you love, success, and fulfillment in your path.",
+      "id": 16
+    },
+    {
+      "name": "Trisha",
+      "mesg": "Our time together was special. I wish you all the happiness and success in the world.",
+      "id": 17
+    },
+    {
+      "name": "Rohini",
+      "mesg": "May your journey be filled with love and positivity. Thank you for the memories.",
+      "id": 18
+    },
+    {
+      "name": "Sahil",
+      "mesg": "Wishing you a future filled with love, joy, and success. Thank you for being part of my life.",
+      "id": 19
+    },
+    {
+      "name": "Kavya",
+      "mesg": "Our paths may not cross again, but I'll always cherish the moments we had together.",
+      "id": 20
+    },
+    {
+      "name": "Ishaan",
+      "mesg": "Thank you for the laughter and memories. May your future be as bright as your smile.",
+      "id": 21
+    },
+    {
+      "name": "Raj",
+      "mesg": "Wishing you success and fulfillment in every aspect of your life. Take care.",
+      "id": 22
+    },
+    {
+      "name": "Aishwarya",
+      "mesg": "Our journey together may have ended, but I hope your new path is filled with happiness.",
+      "id": 23
+    },
+    {
+      "name": "Aarushi",
+      "mesg": "As we move forward separately, I wish you all the love and success life has to offer.",
+      "id": 24
+    },
+    {
+      "name": "Aadit",
+      "mesg": "Thank you for being part of my story. Wishing you a future filled with love and joy.",
+      "id": 25
+    },
+    {
+      "name": "Mira",
+      "mesg": "May your journey be filled with positivity and success. Thank you for the memories.",
+      "id": 26
+    },
+    {
+      "name": "Amrit",
+      "mesg": "Wishing you all the best in your future endeavors. Our time together was memorable.",
+      "id": 27
+    },
+    {
+      "name": "Anika",
+      "mesg": "Life takes us on different paths. I hope yours is filled with happiness and fulfillment.",
+      "id": 28
+    },
+    {
+      "name": "Rajat",
+      "mesg": "As we go our separate ways, I wish you love, peace, and success in everything you do.",
+      "id": 29
+    },
+    {
+      "name": "Dia",
+      "mesg": "Thank you for the beautiful moments. Wishing you happiness and success on your journey.",
+      "id": 30
+    },
+    {
+      "name": "Nikhil",
+      "mesg": "May your future be bright and fulfilling. Thank you for the memories we created together.",
+      "id": 31
+    },
+    {
+      "name": "Zara",
+      "mesg": "As we part ways, I hope life brings you the happiness and success you deserve.",
+      "id": 32
+    },
+    {
+      "name": "Aaditya",
+      "mesg": "Our time together was a beautiful chapter. Wishing you a future filled with love and joy.",
+      "id": 33
+    },
+    {
+      "name": "Pari",
+      "mesg": "Thank you for being part of my journey. Wishing you love, happiness, and success.",
+      "id": 34
+    },
+    {
+      "name": "Rahul",
+      "mesg": "Life is a journey with new beginnings. May your path be filled with happiness and fulfillment.",
+      "id": 35
+    },
+    {
+      "name": "Anaya",
+      "mesg": "As we go our separate ways, I wish you nothing but the best in all your endeavors.",
+      "id": 36
+    },
+    {
+      "name": "Kabir",
+      "mesg": "Wishing you joy and success on your new journey. Thank you for the memories we shared.",
+      "id": 37
+    },
+    {
+      "name": "Aashi",
+      "mesg": "May your future be as bright as the smiles we shared. Thank you for the beautiful moments.",
+      "id": 38
+    },
+    {
+      "name": "Samarth",
+      "mesg": "As we part ways, I hope you find the happiness and success you've always dreamed of.",
+      "id": 39
+    },
+    {
+      "name": "Aaradhya",
+      "mesg": "Our time together was special. Wishing you love, joy, and success in your future endeavors.",
+      "id": 40
+    },
+    {
+      "name": "Rishi",
+      "mesg": "Thank you for the memories and lessons. Wishing you a future filled with love and happiness.",
+      "id": 41
+    },
+    {
+      "name": "Aanya",
+      "mesg": "May your journey be filled with positivity and success. Thank you for being part of my life.",
+      "id": 42
+    },
+    {
+      "name": "Veer",
+      "mesg": "As we move forward separately, I wish you all the love and success life has to offer.",
+      "id": 43
+    },
+    {
+      "name": "Ishani",
+      "mesg": "Wishing you all the best in your future endeavors. Our time together was memorable.",
+      "id": 44
+    },
+    {
+      "name": "Rajveer",
+      "mesg": "Life takes us on different paths. I hope yours is filled with happiness and fulfillment.",
+      "id": 45
+    },
+    {
+      "name": "Kiara",
+      "mesg": "As we go our separate ways, I wish you love, peace, and success in everything you do.",
+      "id": 46
+    },
+    {
+      "name": "Aarav",
+      "mesg": "Thank you for the beautiful moments. Wishing you happiness and success on your journey.",
+      "id": 47
+    },
+    {
+      "name": "Avisha",
+      "mesg": "May your future be bright and fulfilling. Thank you for the memories we created together.",
+      "id": 48
+    },
+    {
+      "name": "Dhruv",
+      "mesg": "As we part ways, I hope life brings you the happiness and success you deserve.",
+      "id": 49
+    },
+    {
+      "name": "Amara",
+      "mesg": "Our time together was a beautiful chapter. Wishing you a future filled with love and joy.",
+      "id": 50
+    },
+    {
+      "name": "Vivaan",
+      "mesg": "Thank you for being part of my journey. Wishing you love, happiness, and success.",
+      "id": 51
+    },
+    {
+      "name": "Aarini",
+      "mesg": "Life is a journey with new beginnings. May your path be filled with happiness and fulfillment.",
+      "id": 52
+    },
+    {
+      "name": "Vihaan",
+      "mesg": "As we go our separate ways, I wish you nothing but the best in all your endeavors.",
+      "id": 53
+    },
+    {
+      "name": "Aarav",
+      "mesg": "Wishing you joy and success on your new journey. Thank you for the memories we shared.",
+      "id": 54
+    },
+    {
+      "name": "Anika",
+      "mesg": "May your future be as bright as the smiles we shared. Thank you for the beautiful moments.",
+      "id": 55
+    },
+    {
+      "name": "Arnav",
+      "mesg": "As we part ways, I hope you find the happiness and success you've always dreamed of.",
+      "id": 56
+    },
+    {
+      "name": "Aisha",
+      "mesg": "Our time together was special. Wishing you love, joy, and success in your future endeavors.",
+      "id": 57
+    },
+    {
+      "name": "Arya",
+      "mesg": "Thank you for the memories and lessons. Wishing you a future filled with love and happiness.",
+      "id": 58
+    },
+    {
+      "name": "Aahana",
+      "mesg": "May your journey be filled with positivity and success. Thank you for being part of my life.",
+      "id": 59
+    },
+    {
+      "name": "Advait",
+      "mesg": "As we move forward separately, I wish you all the love and success life has to offer.",
+      "id": 60
+    },
+    {
+      "name": "Ananya",
+      "mesg": "Wishing you all the best in your future endeavors. Our time together was memorable.",
+      "id": 61
+    },
+    {
+      "name": "Prajwal",
+      "mesg": "Our journey together has been filled with laughter and shared dreams. Wishing you a future of success and fulfillment.",
+      "id": 64
+    },
+    {
+      "name": "Mourya",
+      "mesg": "As we part ways, I want you to know how much our time together meant to me. May your path be bright and prosperous.",
+      "id": 65
+    },
+    {
+      "name": "Ram",
+      "mesg": "Life's journey may take us on different routes, but the memories we created will forever be cherished. Wishing you the best.",
+      "id": 66
+    },
+    {
+      "name": "Ramya",
+      "mesg": "Our story was a chapter of growth and shared experiences. May the next chapter of your life be filled with love and joy.",
+      "id": 67
+    },
+    {
+      "name": "Shreya",
+      "mesg": "Thank you for the beautiful moments and the lessons learned. I wish you all the happiness and success in your new endeavors.",
+      "id": 68
+    },
+    {
+      "name": "Bindu",
+      "mesg": "As we step into new beginnings, I hope you find the peace and success you truly deserve. Your presence in my life was a gift.",
+      "id": 69
+    },
+    {
+      "name": "Yash",
+      "mesg": "Our time together was like a melody, and now it's time for a new tune. Wishing you a future filled with harmony and joy.",
+      "id": 70
+    },
+    {
+      "name": "Aarohi",
+      "mesg": "Life is a canvas, and our shared moments were colorful strokes. May your canvas be painted with happiness and success.",
+      "id": 71
+    },
+    {
+      "name": "Advik",
+      "mesg": "The journey we embarked on was a chapter in the book of life. May the upcoming chapters bring you love, growth, and prosperity.",
+      "id": 72
+    },
+    {
+      "name": "Prisha",
+      "mesg": "Thank you for being part of my story. May your future be as bright as the smiles we shared and as joyful as our laughter.",
+      "id": 73
+    },
+    {
+      "name": "Aarav",
+      "mesg": "As the pages turn, I want you to know that our chapter will always hold a special place in my heart. Wishing you success and happiness.",
+      "id": 74
+    },
+    {
+      "name": "Ritika",
+      "mesg": "Our time together was a beautiful symphony. May the next movements in your life be filled with harmony and success.",
+      "id": 75
+    },
+    {
+      "name": "Arnav",
+      "mesg": "Life's journey is a puzzle, and you've been a unique piece in mine. May your puzzle be completed with joy, love, and success.",
+      "id": 76
+    },
+    {
+      "name": "Ishita",
+      "mesg": "Wishing you the strength to embrace new beginnings and the courage to pursue your dreams. You deserve all the happiness in the world.",
+      "id": 77
+    },
+    {
+      "name": "Veer",
+      "mesg": "Our paths may diverge, but the memories we shared will forever be etched in my heart. May your journey ahead be filled with prosperity.",
+      "id": 78
+    },
+    {
+      "name": "Aanya",
+      "mesg": "As the curtains close on this chapter, I hope the next stage of your life is filled with applause-worthy moments and standing ovations.",
+      "id": 79
+    },
+    {
+      "name": "Aryan",
+      "mesg": "Our story had its ups and downs, but I'm grateful for the shared chapters. May your next story be a bestseller filled with joy and success.",
+      "id": 80
+    },
+    {
+      "name": "Avni",
+      "mesg": "Thank you for being the melody in my life's song. As new notes are played, may your tune be harmonious and filled with joyous melodies.",
+      "id": 81
+    },
+    {
+      "name": "Advait",
+      "mesg": "As we step onto different paths, may yours be paved with success and fulfillment. Grateful for the shared scenes in our life's play.",
+      "id": 82
+    },
+    {
+      "name": "Aarushi",
+      "mesg": "Our shared moments were like chapters in a novel. Wishing you a future with plot twists of happiness, love, and endless success.",
+      "id": 83
+    },
+    {
+      "name": "Ahaan",
+      "mesg": "Life is a grand stage, and you played a significant role in my act. May your performance in the next scenes be filled with applause and joy.",
+      "id": 84
+    },
+    {
+      "name": "Anvi",
+      "mesg": "As the sun sets on this chapter, may the dawn of the next bring you rays of success, warmth, and endless happiness.",
+      "id": 85
+    },
+    {
+      "name": "Aarav",
+      "mesg": "Wishing you a future filled with the brilliance of stars. Our shared moments were constellations that will always light up the sky of my memories.",
+      "id": 86
+    },
+    {
+      "name": "Anaya",
+      "mesg": "Our journey was like a delicate dance. May your future steps be graceful, filled with joy, and perfectly choreographed with success.",
+      "id": 87
+    },
+    {
+      "name": "Vihaan",
+      "mesg": "As we navigate through the different chapters of life, may your story be an epic filled with triumphs, joy, and all the success you deserve.",
+      "id": 88
+    },
+    {
+      "name": "Aarini",
+      "mesg": "Life's tapestry is woven with various threads, and you've been an intricate part of mine. May your thread be vibrant, filled with success and happiness.",
+      "id": 89
+    },
+    {
+      "name": "Aadit",
+      "mesg": "Our shared moments were like brushstrokes on the canvas of life. May your future paintings be masterpieces filled with colors of joy and success.",
+      "id": 90
+    },
+    {
+      "name": "Ananya",
+      "mesg": "As we close this chapter, may the next one be a captivating story filled with love, adventure, and the success you've always dreamed of.",
+      "id": 91
+    },
+    {
+      "name": "Aarav",
+      "mesg": "Wishing you a journey ahead with the grace of a river's flow and the strength of a mountain's stance. May success be the destination.",
+      "id": 92
+    }
+  ]
 }
