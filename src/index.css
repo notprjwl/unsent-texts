@@ -12,3 +12,8 @@ body {
 ::-webkit-scrollbar {
   display: none;
 }
+
+::selection{
+  background-color: rgb(240 171 252);
+  color: rgb(112 26 117);
+}
