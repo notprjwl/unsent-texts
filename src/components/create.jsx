@@ -16,8 +16,19 @@ const Create = () => {
   //   setText(capitalize)
   // };
   const handleSubmit = (e) => {
-    const message = { isName, isMessage };
-    console.log(message);
+    e.preventDefault();
+    const date = new Date();
+    const formattedDate = `${date.getDate().toString().padStart(2, 0)}/${(date.getMonth() + 1).toString().padStart(2, 0)}/${date.getFullYear()}`;
+    const message = { name: isName, mesg: isMessage, date: formattedDate };
+    fetch("http://localhost:8000/messages", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(message),
+    }).then(() => {
+      console.log("message added");
+    });
   };
 
   const handleClick = () => {
