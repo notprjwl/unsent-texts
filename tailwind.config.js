@@ -8,6 +8,12 @@ module.exports = {
         pt: ["PT Serif"],
         playfair: ["Playfair Display"]
       },
+      colors: {
+        background: "#10100e",
+        text: "#ffffe3",
+        outline: "#30302b",
+        shadow: "#606055"
+      },
     },
   },
   plugins: [],
