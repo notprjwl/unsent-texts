@@ -3,18 +3,18 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className='bg-[#10100e] flex justify-between items-center border-box border-b border-[#30302b]'>
-      <Link to='/' className='text-2xl font-bold text-[#ffffe3] font-pt center p-4 hover:e6e6cc tracking-tighter'>
+    <div className='bg-background flex justify-between items-center border-box border-b border-outline'>
+      <Link to='/' className='text-2xl font-bold text-text font-pt center p-4 hover:e6e6cc tracking-tighter'>
         Unsent Texts.
       </Link>
-      <div className='flex items-center font-mono font-bold text-[#ffffe3] '>
+      <div className='flex items-center font-mono font-bold text-text '>
         {/* <Link to="/" className="text-[#bdbdbd] p-5 hover:text-white ">
           Home
         </Link> */}
-        <Link to='/messages' className='p-5 border-x border-[#30302b] hover:bg-[#ffffe3] hover:text-[#10100e] '>
+        <Link to='/messages' className='p-5 border-x border-outline hover:bg-text hover:text-background '>
           Archive
         </Link>
-        <Link to='/create' className='whitespace-nowrap p-5 hover:bg-[#ffffe3] hover:text-[#10100e]'>
+        <Link to='/create' className='whitespace-nowrap p-5 hover:bg-text hover:text-background'>
           New Message
         </Link>
       </div>
