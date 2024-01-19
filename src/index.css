@@ -7,7 +7,10 @@
 
 body {
   background-color: #10100e;
+  overflow-y: scroll;  /* scroll thing was messing with the layout */
 }
+
+
 
 ::-webkit-scrollbar {
     width: 12px;
