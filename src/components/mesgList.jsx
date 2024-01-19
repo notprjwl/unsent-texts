@@ -21,7 +21,7 @@ const MesgList = ({ messages }) => {
     <div className='flex flex-wrap justify-center h-[80%] gap-8 p-7 w-full xl:w-[60%] mx-auto pt-5'>
       {messages.map((mesg) => (
         <Link key={mesg.id} to={`/messages/${mesg.id}`}>
-          <div key={mesg.id} className="message-card bg-[#10100e] p-8 text-[#ffffe3] h-[50vh] w-[40vh] rounded-md shadow-lg text-center cursor-pointer  hover:bg-[#ffffe3] hover:text-[#10100e] border border-[#30302b]">
+          <div key={mesg.id} className="message-card bg-background p-8 text-text h-[50vh] w-[40vh] rounded-md shadow-lg text-center cursor-pointer  hover:bg-text hover:text-background border border-outline">
             <h1 className='text-4xl font-serif font-[500] flex justify-start'>
               To: {mesg.name}
               <span className='cursor-pointer pl-2 text-2xl pt-1'></span>
