@@ -11,7 +11,7 @@ const useSearch = () => {
     setSearch(disableSearch);
   }, []);
 
-  return {isSearch}
+  return {isSearch} //by default false
 };
 
 export default useSearch;
