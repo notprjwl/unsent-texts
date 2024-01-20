@@ -7,7 +7,7 @@ const Home = () => {
       <h1 className="text-text font-playfair font-black italic text-8xl tracking-tighter text-center">
         Unsent Texts.
       </h1>
-      <h1 className="text-text mt-5 mx-auto whitespace-pre-wrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+      <h1 className="text-text mt-5 mx-auto whitespace-pre-wrap">Unsent texts shares the stories of messages written but never sent. This is an intimate project that explores the unspoken words, unshared feelings, and missed connections that reside within these unsent messages. Each unsent text holds a story, a secret, or a sentiment that lingers in the silence of the unsaid ensuring the privacy of every untold tale.</h1>
     </main>
     </div>
   );
