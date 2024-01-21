@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import { Link } from "react-router-dom";
 
 
@@ -16,12 +16,21 @@ const MesgList = ({ messages }) => {
     return emojis[randomIndex];
   };
 
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const timeOut = setTimeout(()=> {
+      setIsVisible(true);
+    }, 100)
+    return () => clearTimeout(timeOut)
+  });
+
 
   return (
-    <div className='flex flex-wrap justify-center h-[80%] gap-8 p-7 w-full xl:w-[60%] mx-auto pt-5'>
+    <div className= "flex flex-wrap justify-center h-[80%] gap-8 p-7 w-full xl:w-[60%] mx-auto pt-5">
       {messages.map((mesg) => (
-        <Link key={mesg.id} to={`/messages/${mesg.id}`}>
-          <div key={mesg.id} className="message-card bg-background p-8 text-text h-[50vh] w-[40vh] rounded-md shadow-lg text-center cursor-pointer  hover:bg-text hover:text-background border border-outline">
+        <Link key={mesg.id} to={`/messages/${mesg.id}`} className= {`transition-all duration-500 ease-in-out transform ${isVisible ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"}`} >
+          <div key={mesg.id} className= "message-card bg-background p-8 text-text h-[50vh] w-[40vh] rounded-md shadow-lg text-center cursor-pointer  hover:bg-text hover:text-background border border-outline">
             <h1 className='text-4xl font-serif font-[500] flex justify-start'>
               To: {mesg.name}
               <span className='cursor-pointer pl-2 text-2xl pt-1'></span>
