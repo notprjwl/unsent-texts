@@ -9,11 +9,6 @@ const Main = () => {
   const { messages, error, isLoading } = useFetch("http://localhost:8000/messages");
   const { isSearch } = useSearch(true);
   const [search, setSearch] = useState("");
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    setIsVisible(true);
-  }, []);
 
   const handleSearch = (input) => {
     setSearch(input);
@@ -22,7 +17,7 @@ const Main = () => {
   const filteredMessages = messages && Array.isArray(messages) ? messages.filter((message) => !search || message.name.toLowerCase().includes(search.toLowerCase())) : [];
 
   return (
-    <div className={`transition-all duration-500 ease-in-out transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'} text-center`}>
+    <div className='text-center'>
       {!isLoading && !isSearch && <Search onSearch={handleSearch} />}
       {error && <div className='inline-block text-[#ffffe3] text-wrap bg-[#10100e] font-mono mt-10 p-5 rounded-md '>{error}</div>}
       {isLoading && (
