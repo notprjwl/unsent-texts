@@ -14,6 +14,8 @@ module.exports = {
         outline: "#30302b",
         shadow: "#606055",
       },
+      borderStyle: ["responsive", "hover"],
+      borderWidth: ["responsive", "hover"],
     },
   },
   plugins: [],
