@@ -34,3 +34,8 @@ body {
 }
 
 
+.active-link {
+  border-bottom: #ffffe3;
+  background-color: #ffffe3;
+  color: #10100e;
+}
