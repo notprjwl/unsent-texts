@@ -1,8 +1,19 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
+
 
 const Home = () => {
+
+  const[isVisible, setIsVisible] = useState(false)
+
+  useEffect(()=> {
+    const timeOut = setTimeout(()=> {
+      setIsVisible(true)
+    }, 100)
+    return () => clearTimeout(timeOut)
+})
+
   return (
-    <div>
+    <div className={`transition-all duration-500 ease-in-out transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
     <main className="container mx-auto mt-[30vh]">
       <h1 className="text-text font-playfair font-black italic text-8xl tracking-tighter text-center">
         Unsent Texts.
