@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { PlusCircleIcon } from "@heroicons/react/24/solid";
 
 const Navbar = () => {
@@ -11,10 +11,11 @@ const Navbar = () => {
   });
 
   return (
-    <div className={`transition-all duration-500 ease-in-out transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'} bg-background flex justify-between items-center border-box border-b border-outline`}>
-      <Link to='/' className='text-2xl font-bold text-text font-pt center p-4 hover:e6e6cc tracking-tighter'>
+    <div className={`transition-all duration-500 ease-in-out transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'} bg-background flex justify-between items-center border-box border-b border-outline  `}>
+
+      <NavLink to='/' className='text-2xl font-bold text-text font-pt center p-4 hover:e6e6cc tracking-tighter'>
         Unsent Texts.
-      </Link>
+      </NavLink>
       {/* <button className="">
         <a href=''>
           <PlusCircleIcon className='text-text h-5' />
@@ -22,19 +23,19 @@ const Navbar = () => {
       </button> */}
 
       <div className='flex items-center font-mono font-bold text-text '>
-        {/* <Link to="/" className="text-[#bdbdbd] p-5 hover:text-white ">
+        {/* <NavLink to="/" className="text-[#bdbdbd] p-5 hover:text-white ">
           Home
-        </Link> */}
-        <Link to='/messages' className='p-5 border-x border-outline hover:bg-text hover:text-background '>
+        </NavLink> */}
+        <NavLink to='/messages' className='p-5 duration-300 ease-in-out border-x border-b border-outline border-b-transparent hover:border-b hover:border-b-text' activeClassName="active-link">
           Archive
-        </Link>
-        <Link to='/create' className='whitespace-nowrap p-5 hover:bg-text hover:text-background'>
+        </NavLink>
+        <NavLink to='/create'  className='whitespace-nowrap duration-300 ease-in-out p-5 border-b border-transparent border-outline hover:border-b-text' activeClassName="active-link">
           New Message
-        </Link>
+        </NavLink>
       </div>
     </div>
   );
 };
 export default Navbar;
 
-//if you want react to handle the routing only in the browser we need to use links. for the we need to replace anchor tags with links
+//if you want react to handle the routing only in the browser we need to use NavLinks. for the we need to replace anchor tags with NavLinks
