@@ -8,6 +8,7 @@ const Create = () => {
   const [isChangingText, setChangingText] = useState(0);
   const [isName, setName] = useState("");
   const [isMessage, setMessage] = useState("");
+  const [isVisible, setIsVisible] = useState(false)
   // const [isText, setText] = useState("");
 
   // const upperCase = (event) => {
@@ -15,6 +16,17 @@ const Create = () => {
   //   const capitalize = inputValue.charAt(0).toUpperCase + inputValue.slice(1);
   //   setText(capitalize)
   // };
+
+  //transition effect
+  useEffect(()=> {
+    const timeOut = setTimeout(()=> {
+      setIsVisible(true)
+
+    }, 100)
+    return () => clearTimeout(timeOut)
+  })
+
+  //POST and also trigger function which also exports the date when the message is created
   const handleSubmit = (e) => {
     // e.preventDefault();
     const date = new Date();
@@ -31,6 +43,7 @@ const Create = () => {
     });
   };
 
+  //changing texts function
   const handleClick = () => {
     setChangingText((prevIndex) => (prevIndex + 1) % texts.length); //mod cause it stays till the length of the array not exceed
   };
@@ -38,7 +51,7 @@ const Create = () => {
   return (
     <div className='flex text-center justify-center font-serif h-screen '>
       {isSearch && <Search />}
-      <div className='relative bg-[#10100eb0] p-8 h-[54vh] w-[40vh] mt-[20vh] rounded-md shadow-lg text-center border-gray-600'>
+      <div className={`transition-all duration-500 ease-in-out tranform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-5 opacity-0'} relative bg-[#10100eb0] p-8 h-[54vh] w-[40vh] mt-[20vh] rounded-md shadow-lg text-center border-gray-600`}>
         <form onSubmit={handleSubmit} className="no-underline" autoComplete="off">
           <h1 className='text-text font-pt selection:bg-none selection:text-none select-none cursor-pointer hover:text-[#ffffe3e0] text-wrap mx-auto inline-block max-w-full' onClick={handleClick}>
             {texts[isChangingText]}
