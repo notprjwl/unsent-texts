@@ -6,19 +6,29 @@ import useFetch from "../hooks/useFetch";
 import useSearch from "../hooks/useSearch";
 
 const Main = () => {
-  const { messages, error, isLoading } = useFetch("http://localhost:8000/messages");
-  const { isSearch } = useSearch(true);
-  const [search, setSearch] = useState("");
+  const { messages, error, isLoading } = useFetch("http://localhost:8000/messages"); //default isloading is true
+  const { isSearch } = useSearch(""); //for disabling and enabling search bar //default false
+  const [search, setSearch] = useState(""); //search
 
   const handleSearch = (input) => {
     setSearch(input);
   };
 
-  const filteredMessages = messages && Array.isArray(messages) ? messages.filter((message) => !search || message.name.toLowerCase().includes(search.toLowerCase())) : [];
+  //SEARCH FUNCTION EXPLAINATION (LIVE FILTERING)
+  //1. firstly it checks if the messages is an array.
+  //2. if it is true then it goes to the filter function
+  //3. here in this function OR operator is used which is if the left side of the OR is true then then entire expression is true. if the left side of OR is false then the entire expression evaluates the value on the right.
+  /*4. if !search is false then =>{
+      - first it converts the name in the message array to lowercase
+      - then it checks if the lowercase version of message.name contains the lowercase version of the search query.
+      - true then return the filtered messages
+  } */
+  //5. if it is not an array it returns null
+  const filteredMessages = messages && Array.isArray(messages) ? messages.filter((message) => !search || message.name.toLowerCase().includes(search.toLowerCase())) : [];  
 
   return (
     <div className='text-center'>
-      {!isLoading && !isSearch && <Search onSearch={handleSearch} />}
+      {!isLoading && !isSearch && <Search onSearch={handleSearch} />}  {/*false && true && true => does not render search component when it is loading*/}
       {error && <div className='inline-block text-[#ffffe3] text-wrap bg-[#10100e] font-mono mt-10 p-5 rounded-md '>{error}</div>}
       {isLoading && (
         <svg aria-hidden='true' className='inline w-8 h-[75vh] mt-5 text-[#10100e] animate-spin fill-[#ffffe3]' viewBox='0 0 100 101' fill='none' xmlns='http://www.w3.org/2000/svg'>
